@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* background: no-repeat linear-gradient(rgba(44, 58, 93, 0.084), rgba(44, 53, 117, 0.774)), url("./interior-design.jpg"); */
+    background: no-repeat url("./interior-design.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    margin: 30px 50px;
+}
+
+.logo {
+    background-color: transparent;
+    padding: 10px 40px;
+    float: left;
+}
+
+.nav-list {
+    margin-left: 20%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid;
+    color: #fff;
+}
+
+.nav-items {
+    cursor: pointer;
+}
+
+.call-us {
+    flex-grow: 0.05;
+    width: 200px;
+}
+
+i {
+    float: left;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.mid-section {
+    margin: 100px;
+}
+
+.heading-text {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    width: 50%;
+}
+
+.learn-more-btn {
+    margin-top: 50px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: transparent;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.learn-more-btn:hover {
+    color: rgb(154, 150, 170);
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+
+.features {
+    width: 200px;
+    background-color: rgba(188, 188, 188, 0.1);
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon-div {
+    padding: 5px 5px;
+    text-align: center;
+    background-color: #fff;
+    width: 40%;
+    border-radius: 50px;
+    color: black
+}
+
+.icon-div>i {
+    margin: 0% 25%;
+}
+
+.fa-lightbulb {
+    color: black
+}
+
+.card-1 {
+    /* float: right; */
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+.card-2 {
+    /* float: center; */
+    position: absolute;
+    top: 65%;
+    right: 40%;
+}
