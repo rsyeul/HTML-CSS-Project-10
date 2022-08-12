@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     /* background: no-repeat linear-gradient(rgba(44, 58, 93, 0.084), rgba(44, 53, 117, 0.774)), url("./interior-design.jpg"); */
-    background: no-repeat url("./interior-design.jpg");
+    background: no-repeat url("../images/interior-design.jpg");
     background-size: cover;
     color: #fff;
 }
